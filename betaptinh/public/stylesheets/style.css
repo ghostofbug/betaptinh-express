@@ -1,0 +1,23 @@
+
+body
+{
+  background-color:rgb(146, 146, 146);
+}
+
+.container
+{
+  margin-top: 30px;
+  background-color: white;
+  padding-top: 30px;
+}
+
+p
+{
+
+  color:red;
+}
+.no-border
+{
+  border:0;
+  background: transparent;
+}
