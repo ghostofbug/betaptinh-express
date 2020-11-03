@@ -21,23 +21,24 @@
     <div class="row">
         <div class="col-2"></div>
         <div class="col-8">
-            <form method="post" onsubmit="return CheckSubmit()">
+            <form>
                 <div class="row">
-                    <div class="col-md-8 col-lg-8 col-sm-2">
+                    <div class="col-md-8 col-lg-8 col-sm-4 col-6">
                         <div class="form-group row">
-                            <label for="input_num1" class="col-md-4 col-sm-5" >Số thứ nhất</label>
+                            <label for="input_num1" class="col-md-4 col-sm-5 col-12" >Số thứ nhất</label>
 
-                            <input type="text" class="form-control col-md-8 col-sm-7" name="number1" value="{{number1}}" id="input_num1">
-
+                            <div class="col-md-8 col-sm-7 col-12">
+                                <input type="text" class="form-control" id="input_num1">
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-1 col-lg-1 col-sm-3 mx-3">
+                    <div class="col-md-1 col-lg-1 col-sm-3 mx-md-3 col-3 my-sm-0 my-4">
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radio_plus" value="Cộng">
                             <label class="form-check-label" for="radio_plus">Cộng</label>
                         </div>
                     </div>
-                    <div class="col-md-1 col-lg-1 col-sm-4 mx-3">
+                    <div class="col-md-1 col-lg-1 col-sm-4 mx-md-3 col-3 my-sm-0 my-4">
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radio_minus" value="Trừ">
                             <label class="form-check-label" for="radio_minus">Trừ</label>
@@ -47,21 +48,23 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-8 col-lg-8 col-sm-4">
+                    <div class="col-md-8 col-lg-8 col-sm-4 col-6">
                         <div class="form-group row">
-                            <label for="input_num2" class="col-md-4 col-sm-5" >Số thứ hai</label>
+                            <label for="input_num2" class="col-md-4 col-sm-5 col-12" >Số thứ hai</label>
 
-                            <input type="text" class="form-control col-md-8 col-sm-7" name="number2" value="{{number2}}" id="input_num2">
+                            <div class="col-md-8 col-sm-7 col-12">
+                                <input type="text" class="form-control " id="input_num2">
+                            </div>
 
                         </div>
                     </div>
-                    <div class="col-md-1 col-lg-1 col-sm-4 mx-3">
+                    <div class="col-md-1 col-lg-1 col-sm-4 mx-md-3 col-3 my-sm-0 my-4">
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radio_multi" value="Nhân">
                             <label class="form-check-label" for="radio_multi">Nhân</label>
                         </div>
                     </div>
-                    <div class="col-md-1 col-lg-1 col-sm-4 mx-3">
+                    <div class="col-md-1 col-lg-1 col-sm-4 mx-md-3 col-3 my-sm-0 my-4">
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radio_divine" value="Chia">
                             <label class="form-check-label" for="radio_divine">Chia</label>
@@ -70,26 +73,28 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-8 col-lg-8 col-sm-4">
+                    <div class="col-md-8 col-lg-8 col-sm-4 col-6">
                         <div class="form-group row">
-                            <label for="display_result" class="col-md-4 col-sm-5" >Kết quả</label>
-
-                            <input type="text" class="form-control col-md-8 col-sm-7" id="display_result" value="{{result}}" readonly>
-
+                            <label for="input_result" class="col-md-4 col-sm-5 col-12" >Kết quả</label>
+                            <div class="col-md-8 col-sm-7 col-12">
+                                <input type="text" class="form-control"  id="display_result" readonly>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-md-4">
-                        <button type="submit"  class="btn btn-primary mx-3">Tính</button>
+                    <div class="col-md-1 col-lg-1 col-sm-4 col-6">
+                        <button type="submit" class="btn btn-primary mx-md-3 mx-0 my-sm-0 my-6">Tính</button>
                     </div>
+
+
                 </div>
 
                 <div class="row">
-                    <div class="col-md-8 col-lg-8 col-sm-4">
+                    <div class="col-md-8 col-lg-8 col-sm-4 col-6">
                         <div class="form-group row">
-                            <label for="input_num1" class="col-md-4 col-sm-5" >Thông báo</label>
+                            <label for="input_num1" class="col-md-4 col-sm-5 col-12" >Thông báo</label>
 
-                            <p class="col-md-8 col-sm-7" id="display_error"></p>
+                            <p class="col-md-8 col-sm-7" id="display_error">Sai cú pháp</p>
 
                         </div>
                     </div>
@@ -97,11 +102,7 @@
 
             </form>
         </div>
-        <div class="col-2">
-
-        </div>
+        <div class="col-2"></div>
     </div>
 
 </div>
-
-
