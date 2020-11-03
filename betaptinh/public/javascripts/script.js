@@ -29,7 +29,7 @@ function CheckRadio()
             return true;
         }
     }
-    document.getElementById("display_error").innerHTML="Chưa chọn phép tính";
+
    return false
 }
 
@@ -91,10 +91,23 @@ function CheckSubmit()
         SaveRadio();
         return true;
     }
-    else
+    else if (CheckNumeric()==true && CheckRadio()==false)
+    {
+        document.getElementById("display_error").innerHTML="Chưa chọn phép tính";
+        return false;
+    }
+
+    else if (CheckNumeric()==false && CheckRadio()==true)
     {
         return false;
     }
+
+    else if (CheckNumeric()==false && CheckRadio()==false)
+    {
+        document.getElementById("display_error").innerHTML+="<br>Chưa chọn phép tính";
+        return false;
+    }
+
 }
 document.addEventListener("DOMContentLoaded",function ()
 {

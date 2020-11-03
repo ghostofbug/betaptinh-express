@@ -21,14 +21,14 @@
     <div class="row">
         <div class="col-2"></div>
         <div class="col-8">
-            <form>
+            <form method="post" onsubmit="return CheckSubmit()">
                 <div class="row">
                     <div class="col-md-8 col-lg-8 col-sm-4 col-6">
                         <div class="form-group row">
                             <label for="input_num1" class="col-md-4 col-sm-5 col-12" >Số thứ nhất</label>
 
                             <div class="col-md-8 col-sm-7 col-12">
-                                <input type="text" class="form-control" id="input_num1">
+                                <input name="number1" type="text" class="form-control" id="input_num1" value="{{number1}}">
                             </div>
                         </div>
                     </div>
@@ -53,7 +53,7 @@
                             <label for="input_num2" class="col-md-4 col-sm-5 col-12" >Số thứ hai</label>
 
                             <div class="col-md-8 col-sm-7 col-12">
-                                <input type="text" class="form-control " id="input_num2">
+                                <input name="number2" type="text" class="form-control " id="input_num2" value="{{number2}}">
                             </div>
 
                         </div>
@@ -75,9 +75,9 @@
                 <div class="row">
                     <div class="col-md-8 col-lg-8 col-sm-4 col-6">
                         <div class="form-group row">
-                            <label for="input_result" class="col-md-4 col-sm-5 col-12" >Kết quả</label>
+                            <label for="display_result" class="col-md-4 col-sm-5 col-12" >Kết quả</label>
                             <div class="col-md-8 col-sm-7 col-12">
-                                <input type="text" class="form-control"  id="display_result" readonly>
+                                <input type="text" class="form-control"  id="display_result" value="{{result}}" readonly>
                             </div>
                         </div>
                     </div>
