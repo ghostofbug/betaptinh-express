@@ -34,13 +34,13 @@
                     </div>
                     <div class="col-md-1 col-lg-1 col-sm-3 mx-md-3 col-3 my-sm-0 my-4">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radio_plus" value="Cộng">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radio_plus" value="Cộng" {{checked operator 'Cộng'}}>
                             <label class="form-check-label" for="radio_plus">Cộng</label>
                         </div>
                     </div>
                     <div class="col-md-1 col-lg-1 col-sm-4 mx-md-3 col-3 my-sm-0 my-4">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radio_minus" value="Trừ">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radio_minus" value="Trừ" {{checked operator 'Trừ'}}>
                             <label class="form-check-label" for="radio_minus">Trừ</label>
                         </div>
                     </div>
@@ -53,20 +53,20 @@
                             <label for="input_num2" class="col-md-4 col-sm-5 col-12" >Số thứ hai</label>
 
                             <div class="col-md-8 col-sm-7 col-12">
-                                <input name="number2" type="text" class="form-control " id="input_num2" value="{{number2}}">
+                                <input name="number2" type="text" class="form-control " id="input_num2" value="{{number2}}" >
                             </div>
 
                         </div>
                     </div>
                     <div class="col-md-1 col-lg-1 col-sm-4 mx-md-3 col-3 my-sm-0 my-4">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radio_multi" value="Nhân">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radio_multi" value="Nhân" {{checked operator 'Nhân'}}>
                             <label class="form-check-label" for="radio_multi">Nhân</label>
                         </div>
                     </div>
                     <div class="col-md-1 col-lg-1 col-sm-4 mx-md-3 col-3 my-sm-0 my-4">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radio_divine" value="Chia">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radio_divine" value="Chia" {{checked operator 'Chia'}}>
                             <label class="form-check-label" for="radio_divine">Chia</label>
                         </div>
                     </div>

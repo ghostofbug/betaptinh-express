@@ -1,17 +1,4 @@
 
-function SaveRadio()
-{
-    for ( i=0;i<document.getElementsByName("inlineRadioOptions").length;i++)
-    {
-        if (document.getElementsByName("inlineRadioOptions")[i].checked==true)
-        {
-            sessionStorage.setItem("chosen_radio",document.getElementsByName("inlineRadioOptions")[i].value);
-        }
-    }
-
-}
-
-
 function isNumeric(str) {
     if (typeof str != "string") return false
     if (str==="") return true;
@@ -88,7 +75,7 @@ function CheckSubmit()
             document.getElementById("display_error").innerHTML = "Không thể chia cho 0";
             return false;
         }
-        SaveRadio();
+
         return true;
     }
     else if (CheckNumeric()==true && CheckRadio()==false)
@@ -109,20 +96,3 @@ function CheckSubmit()
     }
 
 }
-document.addEventListener("DOMContentLoaded",function ()
-{
-
-        radio=sessionStorage.getItem("chosen_radio")
-
-        for ( i=0;i<document.getElementsByName("inlineRadioOptions").length;i++)
-        {
-            if (document.getElementsByName("inlineRadioOptions")[i].value==radio)
-            {
-                document.getElementsByName("inlineRadioOptions")[i].checked=true;
-                sessionStorage.clear();
-                break;
-            }
-        }
-
-
-})

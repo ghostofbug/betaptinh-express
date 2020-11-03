@@ -33,7 +33,7 @@ router.post('/', function(req, res, next) {
 
 
 
-  res.render('index', { title: 'Express',number1,number2,result});
+  res.render('index', { title: 'Express',number1,number2,result,operator});
 });
 
 module.exports = router;

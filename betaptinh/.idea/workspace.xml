@@ -33,7 +33,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1jjhDYA5bse40Dp2GPna7tvc9LA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -44,7 +44,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../BTweb/Ex/betaptinh" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -59,6 +59,7 @@
       <workItem from="1604323290099" duration="11720000" />
       <workItem from="1604362679961" duration="7431000" />
       <workItem from="1604376650175" duration="4419000" />
+      <workItem from="1604400356486" duration="1316000" />
     </task>
     <servers />
   </component>
@@ -82,21 +83,21 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1604388298412" />
-    <state width="1515" height="214" key="GridCell.Tab.0.bottom" timestamp="1604337870246">
+    <state width="1515" height="213" key="GridCell.Tab.0.bottom" timestamp="1604400742432">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1604337870246" />
-    <state width="1515" height="214" key="GridCell.Tab.0.center" timestamp="1604337870245">
+    <state width="1515" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1604400742432" />
+    <state width="1515" height="213" key="GridCell.Tab.0.center" timestamp="1604400742432">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1604337870245" />
-    <state width="1515" height="214" key="GridCell.Tab.0.left" timestamp="1604337870245">
+    <state width="1515" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1604400742432" />
+    <state width="1515" height="213" key="GridCell.Tab.0.left" timestamp="1604400742432">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1604337870245" />
-    <state width="1515" height="214" key="GridCell.Tab.0.right" timestamp="1604337870245">
+    <state width="1515" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1604400742432" />
+    <state width="1515" height="213" key="GridCell.Tab.0.right" timestamp="1604400742432">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1604337870245" />
+    <state width="1515" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1604400742432" />
   </component>
 </project>
